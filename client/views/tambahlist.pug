@@ -1,0 +1,10 @@
+extends layout
+
+block content 
+	h3 TAMBAHLIST
+	form(method='POST' action='http://127.0.0.1:3000/tambahlist')
+		label Todo:
+		input(type='text' name='todo')
+		label Date:
+		input(type='text' name='tanggal')
+		button(type='submit') KIRIM

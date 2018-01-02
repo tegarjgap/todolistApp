@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	div.card
+		div.card-body
+			h3.card-title Sign-In
+				hr.hr-duaes
+				br
+				label username:&nbsp
+				input#username(type='text')
+				br
+				br
+				label password:&nbsp
+				input#password(type='password')
+				br
+				br
+			button#submit(type='submit') Sign-In
+
+
+
+	script(src='/javascripts/checkuser.js')

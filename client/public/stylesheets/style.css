@@ -1,0 +1,106 @@
+/*ini buat background body */
+body{
+    background-color: #D0DEC4;
+    text-align: center;
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.navbar{
+    background-color: #563d7c;
+    margin-bottom: 100px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.navbar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.navbar img{
+    margin-left: 140%;
+}
+
+.navbar-brand{
+    margin-right: 60px;
+}
+
+.navbar-nav.ml-auto li{
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.card{
+    margin: 0 auto;
+    width: 25%;
+    height: 21rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 70px;
+}
+
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+label{
+    font-size: 17px;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
+}
+
+.hr-profile{
+    border-color: black;
+    width: 70%;
+}
+
+.hr-duaes{
+    border-color: black;
+}
+
+.hr-addList{
+    width: 50%;
+    border-color: gray;
+}
+
+.footer{
+    background-color: #563d7c;
+    padding-top: 1px;
+}
+
+.copyrait{
+    color: white;
+    margin: 0 auto;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.addList{
+    margin-top:50px;
+    height: 100%;
+    width:50%;
+}
+
+#task{
+    width: 80%;
+    height: 30px;
+    margin-top:25px;
+}
+
+#date{
+    width: 80%;
+    height: 30px;
+}
+
+.buatadlist{
+    font-size: 17pt;
+}
+
+.hasil-list{
+    height: 100%;
+    width:50%;
+    text-align: left;
+}

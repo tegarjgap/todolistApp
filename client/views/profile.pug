@@ -1,0 +1,34 @@
+extends layout
+
+block content
+	i.fas.fa-pencil-alt.fa-2x
+	| &nbsp&nbsp
+	a.buatadlist add my list
+	hr.hr-addList
+	div.card.addList
+		div.card-body
+			label Task:&nbsp
+			input#task(type='text')
+			br
+			br
+			label  Date:&nbsp
+			input#date(type='text')
+			br
+			br
+			button#add Add
+
+
+	div.card.hasil-list
+		div.card-body
+			ul#addLists
+
+
+
+	
+
+
+
+	script(src='/javascripts/addlist.js')
+	script(src='/javascripts/showactivity.js')
+	script(src='/javascripts/logout.js')
+	
